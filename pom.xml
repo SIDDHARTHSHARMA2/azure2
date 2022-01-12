@@ -61,7 +61,11 @@
     <dependency> 
       <groupId>org.glassfish.jaxb</groupId>  
       <artifactId>jaxb-runtime</artifactId> 
-    </dependency>  
+    </dependency> 
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+    </dependency>	  
     <dependency> 
       <groupId>javax.activation</groupId>  
       <artifactId>activation</artifactId>  
@@ -87,9 +91,9 @@
         <configuration>
           <schemaVersion>V2</schemaVersion>
           <resourceGroup>AZRG-USE2-CON-NPDHASHEDINAZUREINTERNALPOC-NPD-002</resourceGroup>
-          <appName>08-rest-api-full-stack-1641882648529</appName>
-          <pricingTier>P1v2</pricingTier>
-          <region>westeurope</region>
+          <appName>example-app-service-hu19</appName>
+          <pricingTier>S1</pricingTier>
+          <region>easus</region>
           <appSettings>
    	      <property>
 		  <name>JAVA_OPTS</name>
